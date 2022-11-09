@@ -23,12 +23,26 @@
     },
     "location": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::location.location",
-      "inversedBy": "tournaments"
+      "relation": "oneToOne",
+      "target": "api::location.location"
     },
     "desc": {
       "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
