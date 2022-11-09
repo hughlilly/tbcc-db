@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: tbcc-db
+    name: tbcc-strapi
     env: node
     plan: free
     repo: https://github.com/hughlilly/tbcc-db
@@ -44,9 +44,9 @@ services:
       - key: STRAPI_URL_BASE
         fromService:
           type: web
-          name: tbcc-db
+          name: tbcc-strapi
           envVarKey: RENDER_EXTERNAL_URL
 
 databases:
-  - name: strapi
+  - name: tbcc-db
     plan: free
