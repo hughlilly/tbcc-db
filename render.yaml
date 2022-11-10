@@ -56,4 +56,3 @@ databases:
     plan: free
     region: singapore
     databaseName: strapi_pg_prod
-    autoDeploy: false
