@@ -3,8 +3,10 @@ services:
     name: tbcc-strapi
     env: node
     plan: free
+    region: singapore
     repo: https://github.com/hughlilly/tbcc-db
     branch: main
+    autoDeploy: false
     buildCommand: yarn install && yarn build
     startCommand: yarn start
     healthCheckPath: /_health
@@ -36,8 +38,10 @@ services:
     name: tbcc
     env: node
     plan: free
+    region: singapore
     repo: https://github.com/hughlilly/tbcc
     branch: main
+    autoDeploy: false
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
@@ -50,3 +54,6 @@ services:
 databases:
   - name: tbcc-db
     plan: free
+    region: singapore
+    databaseName: strapi_pg_prod
+    autoDeploy: false
