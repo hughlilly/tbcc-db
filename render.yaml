@@ -1,6 +1,7 @@
 services:
+  # Strapi instance
   - type: web
-    name: tbcc-strapi
+    name: tbcc-admin
     env: node
     plan: free
     region: singapore
@@ -34,6 +35,7 @@ services:
       - key: APP_KEYS
         generateValue: true
 
+  # Remix website
   - type: web
     name: tbcc
     env: node
@@ -48,9 +50,10 @@ services:
       - key: STRAPI_URL_BASE
         fromService:
           type: web
-          name: tbcc-strapi
+          name: tbcc-admin
           envVarKey: RENDER_EXTERNAL_URL
 
+# PostgreSQL database
 databases:
   - name: tbcc-db
     plan: free
