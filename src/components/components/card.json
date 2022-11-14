@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+    "sectionText": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
