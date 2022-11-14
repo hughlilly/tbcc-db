@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_faqs",
+  "info": {
+    "displayName": "QuestionAnswer",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_text_descs",
+  "info": {
+    "displayName": "TextDesc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    }
+  }
+}
