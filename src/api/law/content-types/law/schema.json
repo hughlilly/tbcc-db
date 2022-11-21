@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laws",
+  "info": {
+    "singularName": "law",
+    "pluralName": "laws",
+    "displayName": "Laws"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LawName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_materials",
+  "info": {
+    "singularName": "training-material",
+    "pluralName": "training-materials",
+    "displayName": "TrainingMaterial"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ShotName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
