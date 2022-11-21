@@ -4,7 +4,8 @@
   "info": {
     "singularName": "law",
     "pluralName": "laws",
-    "displayName": "Laws"
+    "displayName": "Laws",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,19 @@
       "type": "text"
     },
     "Photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "LawName"
     }
   }
 }
