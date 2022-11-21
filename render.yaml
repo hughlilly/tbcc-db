@@ -7,7 +7,7 @@ services:
     region: singapore
     repo: https://github.com/hughlilly/tbcc-db
     branch: main
-    autoDeploy: false
+    autoDeploy: true
     buildCommand: yarn install && yarn build
     startCommand: yarn start
     healthCheckPath: /_health
@@ -43,9 +43,12 @@ services:
     region: singapore
     repo: https://github.com/hughlilly/tbcc
     branch: main
-    autoDeploy: false
+    autoDeploy: true
     buildCommand: npm install && npm run build
     startCommand: npm start
+    buildFilter:
+      paths:
+        - app/**/*.*
     envVars:
       - key: STRAPI_URL_BASE
         fromService:
