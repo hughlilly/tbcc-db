@@ -12,22 +12,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "firstname": {
+    "firstName": {
       "type": "string"
     },
-    "lastname": {
+    "lastName": {
       "type": "string"
     },
     "email": {
       "type": "email"
     },
-    "phonenumber": {
+    "phoneNumber": {
       "type": "string"
     },
     "message": {
       "type": "text"
     },
-    "newsletter": {
+    "subscriber": {
       "type": "boolean"
     }
   }
