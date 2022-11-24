@@ -16,7 +16,7 @@ There is a .zip file that contains a copy of the developemnt SQLite database and
 
 ## Running locally
 
-### Requirements/prerequisites
+### Prerequisites
 
 - [Node.js](https://nodejs.org/en/) (>=14.19.1 <=18.x.x)
 - npm (> 6)
@@ -24,7 +24,9 @@ There is a .zip file that contains a copy of the developemnt SQLite database and
 
 ### Installation
 
-First, create a file to hold your environment variables:
+#### Environment variables
+
+First, create a file to hold your environment variables by duplicating the included sample file:
 
 ```bash
 cp .env.example .env
@@ -32,19 +34,21 @@ cp .env.example .env
 
 #### Install dependencies, seed data, and start server
 
-Run these chained commands:
+Run this series of chained commands:
 
 ```bash
 yarn && yarn seed && yarn develop
 ```
 
-This should install all dependencies, seed data from the `data.zip` file, and start the Strapi server.
-
-You will need to create an admin user. You do not have to use a real email address, but you will have to create a password (minimum 8 characters, at least one uppercase (A-Z), at least one lowercase (a-z), and at least one digit (0-9)).
+This should install all dependencies, seed data from the `data.zip` file, and start the Strapi server. You will need to create an admin user.
 
 ## Deployed version
 
 This database is deployed to Render, and its data is consumed by the Remix site at <http://tbcc.onrender.com>. (See source repo at <https://github.com/hughlilly/tbcc>)
+
+## Images
+
+All images are [sourced from Unsplash](https://unsplash.com/collections/OzIboe0O1MQ/it5090).
 
 ## Contact
 
