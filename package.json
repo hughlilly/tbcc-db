@@ -7,17 +7,21 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "seed": "node script/seed.js"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.4.7",
     "@strapi/plugin-users-permissions": "4.4.7",
     "@strapi/provider-upload-cloudinary": "^4.4.7",
     "@strapi/strapi": "4.4.7",
-    "better-sqlite3": "7.4.6",
+    "better-sqlite3": "^7.6.2",
+    "fs-extra": "^10.0.0",
     "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "^5.1.2"
+    "sqlite3": "^5.1.2",
+    "unzip-stream": "^0.3.1",
+    "uuid-v4": "^0.1.0"
   },
   "author": {
     "name": "Hugh Lilly"
