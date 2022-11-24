@@ -18,7 +18,7 @@ Of the two files in the `Data` directory, `FilmData.js` is the larger. It contai
 
 ### Requirements/prerequisites
 
-- [Node.js](https://nodejs.org/en/)
+- [Node.js](https://nodejs.org/en/) ()>=14.19.1 <=18.x.x),
 - [yarn](https://yarnpkg.com)
 
 ### Installation
