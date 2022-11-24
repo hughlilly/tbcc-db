@@ -18,7 +18,8 @@ Of the two files in the `Data` directory, `FilmData.js` is the larger. It contai
 
 ### Requirements/prerequisites
 
-- [Node.js](https://nodejs.org/en/) ()>=14.19.1 <=18.x.x),
+- [Node.js](https://nodejs.org/en/) (>=14.19.1 <=18.x.x)
+- npm (> 6)
 - [yarn](https://yarnpkg.com)
 
 ### Installation
@@ -31,7 +32,7 @@ cp .env.example .env
 
 #### Install dependencies, seed data, and start server
 
-Install dependencies, seed data, and start the Strapi instance:
+Run these chained commands:
 
 ```bash
 yarn && yarn seed && yarn develop
