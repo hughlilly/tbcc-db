@@ -1,57 +1,46 @@
-# 🚀 Getting started with Strapi
+# IT5090 Capstone Project: Telugu Badminton Club of Canterbury
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+## Introduction
 
-### `develop`
+This repository contains the website for the IT5090 Capstone Project. The author is Hugh Lilly (ID 20220344).
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+## Source code
 
-```
-npm run develop
-# or
-yarn develop
-```
+### Architecture
 
-### `start`
+The source code for the site is in the `/src` directory. There is an HTML page for the index. The entry point is `App.js`. There are four subdirectories, `assets`, which holds the images and other media assets, `Components`, which holds the React components, `Data`, which holds the app data, and `styles`, which holds the CSS.
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+### Seed data
 
-```
-npm run start
-# or
-yarn start
-```
+Of the two files in the `Data` directory, `FilmData.js` is the larger. It contains titles, director names, runtimes, release-year data, IMDB and YouTube IDs, and a synopsis for each film. It also references an imported JPEG still of that film.
 
-### `build`
+## Running locally
 
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
+### Requirements/prerequisites
 
-```
-npm run build
-# or
-yarn build
+- [Node.js](https://nodejs.org/en/)
+- [yarn](https://yarnpkg.com)
+
+### Installation
+
+First, create a file to hold your environment variables:
+
+```bash
+cp .env.example .env
 ```
 
-## ⚙️ Deployment
+#### Install dependencies, seed data, and start server
 
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
+Install dependencies, seed data, and start the Strapi instance:
 
-## 📚 Learn more
+```bash
+yarn && yarn seed && yarn develop
+```
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+This should install all dependencies, seed data from the `data.zip` file, and start the Strapi server.
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+You will need to create an admin user. You do not have to use a real email address, but you will have to create a password (minimum 8 characters, at least one uppercase (A-Z), at least one lowercase (a-z), and at least one digit (0-9)).
 
-## ✨ Community
+## Contact
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+Contact the author, Hugh Lilly (ID 20220344), by email (20220344@mywhitecliffe.com) if you have any questions.
