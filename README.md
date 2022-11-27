@@ -6,7 +6,7 @@ This repository contains the CMS instance for the IT5090 Capstone Project (Q4 20
 
 ## Companion frontend repository
 
-The site that displays the information contained in this CMS is in the repository hughlilly/tbcc. Set up and install dependencies for this repository first before moving to that one.
+The site that displays the information contained in this CMS is in the repository [hughlilly/tbcc](https://github.com/hughlilly/tbcc). Set up and install dependencies for this repository first before moving to that one.
 
 ## Source code
 
