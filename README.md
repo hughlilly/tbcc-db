@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the website for the CMS for the IT5090 Capstone Project (Q4 2022). The author is Hugh Lilly (ID 20220344).
+This repository contains the CMS instance for the IT5090 Capstone Project (Q4 2022). The author is Hugh Lilly (ID 20220344).
 
 ## Companion frontend repository
 
