@@ -2,7 +2,11 @@
 
 ## Introduction
 
-This repository contains the website for the IT5090 Capstone Project (Q4 2022). The author is Hugh Lilly (ID 20220344).
+This repository contains the website for the CMS for the IT5090 Capstone Project (Q4 2022). The author is Hugh Lilly (ID 20220344).
+
+## Companion frontend repository
+
+The site that displays the information contained in this CMS is in the repository hughlilly/tbcc. Set up and install dependencies for this repository first before moving to that one.
 
 ## Source code
 
@@ -42,9 +46,21 @@ yarn && yarn seed && yarn develop
 
 This should install all dependencies, seed data from the `data.zip` file, and start the Strapi server. You will need to create an admin user.
 
+## Frontend Remix site
+
+### API token
+
+Once the Strapi instance set up and you have logged in and verified that the seeding operation was successful, generate an API token by going to **Settings** > **API Tokens** > **➕ Create new API Token**. Copy this to your clipboard and save it to a text file immediately. You will not be able to view it again.
+
+Give the token a name of "Remix", set its *Duration* to "Unlimited", and its Type to "Custom". Go down to the "Message" content type, and tick the box for "Create". Click **✔️ Save**.
+
+### Install frontend site
+
+Leaving the Strapi server running, go to the other repository, `tbcc`, and set up the Remix site that will consume its data.
+
 ## Deployed version
 
-This database is deployed to Render, and its data is consumed by the Remix site at <http://tbcc.onrender.com>. (See source repo at <https://github.com/hughlilly/tbcc>)
+This database is deployed to Render using PostgreSQL, and its content is consumed by the Remix site at <http://tbcc.onrender.com> (see source repo at <https://github.com/hughlilly/tbcc>). I am using the free tier of Render so initial loads may involve cause the instance to spin up. If the site does not load initally, try again a few minutes later, or contact me.
 
 ## Images
 
