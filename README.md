@@ -60,7 +60,7 @@ Leaving the Strapi server running, go to the other repository, `tbcc`, and set u
 
 ## Deployed version
 
-This database is deployed to Render using PostgreSQL, and its content is consumed by the Remix site at <http://tbcc.onrender.com> (see source repo at <https://github.com/hughlilly/tbcc>). I am using the free tier of Render so initial loads may involve cause the instance to spin up. If the site does not load initally, try again a few minutes later, or contact me.
+This database is deployed to Render using PostgreSQL, and its content is consumed by the Remix site at <http://tbcc.onrender.com> (see source repo at <https://github.com/hughlilly/tbcc>). I am using the free tier of Render so initial loads may cause the instance to spin up. If the site does not load initally, try again a few minutes later, or contact me.
 
 ## Images
 
