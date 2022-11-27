@@ -16,7 +16,7 @@ This is an instance of the open-source headless CMS [Strapi](http://strapi.io). 
 
 ### Seed data
 
-There is a .zip file that contains a copy of the developemnt SQLite database and all necessary image assets. The `yarn seed` script (see below) will automatically extract and import the data.
+There is a .zip file that contains a copy of the development SQLite database and all necessary image assets. The `yarn seed` script (see below) will automatically extract and import the data.
 
 ## Running locally
 
