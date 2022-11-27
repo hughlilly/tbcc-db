@@ -23,7 +23,7 @@ There is a .zip file that contains a copy of the development SQLite database and
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/) (>=14.19.1 <=18.x.x)
-- npm (> 6)
+- npm (>6)
 - [yarn](https://yarnpkg.com)
 
 ### Installation
