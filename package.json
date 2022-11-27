@@ -1,8 +1,8 @@
 {
   "name": "tbcc-db",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "1.0.0",
+  "description": "IT5090 Capstone Project: Telugu Badminton Club of Canterbury",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
