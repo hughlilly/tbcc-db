@@ -44,9 +44,19 @@ Run this series of chained commands:
 yarn && yarn seed && yarn develop
 ```
 
-This should install all dependencies, seed data from the `data.zip` file, and start the Strapi server. You will need to create an admin user.
+This should install all dependencies, seed data from the `data.zip` file, and start the Strapi server.
 
-## Frontend Remix site
+#### Log in
+
+Login with the following username and password:
+
+Username: 20220344@mywhitecliffe.com
+
+Password:
+
+```bash
+gikty2-qofper-bigtoG
+```
 
 ### API token
 
@@ -54,13 +64,17 @@ Once the Strapi instance set up and you have logged in and verified that the see
 
 Give the token a name of "Remix", set its *Duration* to "Unlimited", and its Type to "Custom". Go down to the "Message" content type, and tick the box for "Create". Click **✔️ Save**.
 
+You can also regenerate the existing token, though it's just as easy to make a new one.
+
+## Frontend Remix site
+
 ### Install frontend site
 
 Leaving the Strapi server running, go to the other repository, `tbcc`, and set up the Remix site that will consume its data.
 
 ## Deployed version
 
-This database is deployed to Render using PostgreSQL, and its content is consumed by the Remix site at <http://tbcc.onrender.com> (see source repo at <https://github.com/hughlilly/tbcc>). I am using the free tier of Render so initial loads may cause the instance to spin up. If the site does not load initally, try again a few minutes later, or contact me.
+This database is deployed to Render using PostgreSQL, and its content is consumed by the Remix site at <http://tbcc.onrender.com> (see source repo at <https://github.com/hughlilly/tbcc>). I am using the free tier of Render so initial load may cause the instance to spin up. If the site does not load initally, try again a few minutes later, or contact me.
 
 ## Images
 
